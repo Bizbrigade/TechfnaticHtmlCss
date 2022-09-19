@@ -1,0 +1,44 @@
+/* ================ Home Page CSS =========== */
+
+/* ===== Products Section ==== */
+.product-card{
+    background: linear-gradient(270deg, #e7e7e8, #ffffff, #ededee);
+    border: 2px solid #d4f0ff;
+    border-radius: 8px;
+    box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .product-card::after{
+    content: '';
+    display: block;
+    background: url(../img/wave-bg.svg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+    */
+.product-card .card-head::before{
+    content: '';
+    background: url(../img/wave-bg.svg) #ffffff00;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 156px;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+}
+.product-card hr{
+    border-top: 2px solid #520000;
+    margin: 0 1rem;
+}
+.product-card .card-title{
+    font-size: 1.75rem;
+    color: var(--primary-color) !important;
+    font-weight: 700;
+}
+.product-card .card-title .highlighter{
+    font-weight: 500;
+}
