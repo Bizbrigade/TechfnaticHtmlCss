@@ -1,24 +1,19 @@
 /* ================ Home Page CSS =========== */
 
 /* ===== Products Section ==== */
+.product-slider .slick-slide {
+    padding: 0 12px;
+}
 .product-card{
-    background: linear-gradient(270deg, #e7e7e8, #ffffff, #ededee);
-    border: 2px solid #d4f0ff;
+    background: linear-gradient(270deg, #f5f5f5, #ffffff, #f5f5f5);
+    background: linear-gradient(270deg, #f5f5f587, #ffffff61, #f5f5f587);
+    border: 2px solid #520000;
     border-radius: 8px;
     box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%), 0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* .product-card::after{
-    content: '';
-    display: block;
-    background: url(../img/wave-bg.svg);
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-    */
 .product-card .card-head::before{
     content: '';
     background: url(../img/wave-bg.svg) #ffffff00;
@@ -34,11 +29,26 @@
     border-top: 2px solid #520000;
     margin: 0 1rem;
 }
-.product-card .card-title{
+.product-card .card-body .card-title{
     font-size: 1.75rem;
     color: var(--primary-color) !important;
     font-weight: 700;
+    margin: 0;
 }
-.product-card .card-title .highlighter{
+.product-card .card-body .card-title .highlighter{
     font-weight: 500;
+}
+.product-card .card-body .btn{
+    border: none;
+    padding: 0;
+    color: #000000;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.product-card .card-body .btn img{
+    width: 16px;
+    transition: 0.25s ease;
+}
+.product-card .card-body .btn:hover img{
+    margin-left: 0.5rem !important;
 }
