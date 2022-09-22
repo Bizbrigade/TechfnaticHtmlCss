@@ -1,8 +1,9 @@
 // ===== Index Page Product Slider ====
 $('.product-slider').slick({
-    dots: true,
+    dots: false,
     arrow: true,
     infinite: true,
+    autoplay: true,
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
