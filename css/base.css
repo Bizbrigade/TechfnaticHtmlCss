@@ -101,11 +101,17 @@ hr{
 .pt-2rem{
     padding-top: 2rem;
 }
-.pb-2rem{
+.py-2rem, .pt-2rem{
+    padding-top: 2rem;
+}
+.py-2rem, .pb-2rem{
     padding-bottom: 2rem;
 }
-.mt-2rem{
+.my-2rem, .mt-2rem{
     margin-top: 2rem;
+}
+.my-2rem, .mb-2rem{
+    margin-bottom: 2rem;
 }
 .mt-78px{
     margin-top: 78px;

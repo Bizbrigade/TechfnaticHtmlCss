@@ -52,3 +52,8 @@
 .product-card .card-body .btn:hover img{
     margin-left: 0.5rem !important;
 }
+
+/* ==== Privacy policy and terms and condition page css ==== */
+.privacy-terms-sec p{
+    margin-bottom: 1rem;
+}
