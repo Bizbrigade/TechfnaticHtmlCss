@@ -292,6 +292,7 @@ header .offcanvas{
     line-height: 16px;
     color: var(--dark-red);
     font-weight: 700;
+    margin-bottom: 8px;
 }
 
 /* ===== Media Querie ===== */
