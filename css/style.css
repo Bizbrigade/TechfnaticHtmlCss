@@ -20,6 +20,7 @@
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex !important;
 }
 .product-card .card-head::before{
     content: '';
@@ -35,6 +36,11 @@
 .product-card hr{
     border-top: 2px solid #520000;
     margin: 0 1rem;
+}
+.product-card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .product-card .card-body .card-title{
     font-size: 1.75rem;
